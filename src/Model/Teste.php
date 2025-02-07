@@ -19,6 +19,7 @@ class Teste
 
 // // exit();
 
+
         $lances = $leilao->getLances();
 
         foreach ($lances as $lance) {
