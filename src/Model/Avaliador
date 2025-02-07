@@ -1,0 +1,26 @@
+<?php
+
+namespace Src\Model;
+
+use Src\Model\Leilao;
+
+class Avaliador
+{
+    public function index(){
+        return "Hello World";
+    }
+    // private int|float $maiorValor;
+    // public function avalia(Leilao $leilao)
+    // {
+    //     $lances = $leilao->getLances();
+
+    //     $ultimoLance = $lances[count($lances) - 1];
+
+    //     $this->maiorValor = $ultimoLance->getValor();
+    // }
+
+    // public function getMaiorValor()
+    // {
+    //     return $this->maiorValor;
+    // }
+}
